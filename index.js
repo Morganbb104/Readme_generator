@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
-const fs=require('fs');
+const fs = require('fs');
+const generateMarkdown = require('./generateMarkdown')
 
 const questions=[
     {//Project name
@@ -29,9 +30,9 @@ const questions=[
 
       },{// contribution guidelines
         type: "input",
-        message: "how can the user run this project?",
+        message: "Please state if others can contribute.",
         name: "run",
-        default:'Running'
+        default:'Contribution'
       },{//license
         type: "list",
         message: "Please select which license you would like to use.",
@@ -47,9 +48,9 @@ const questions=[
       },
       {// links
         type: "input",
-        message: "Developer this project Name?",
+        message: "Please give your GitHub profile link.",
         name: "Author",
-        default:'Cheng-Chien Huang'
+        default:'Github'
 
       },{//Github
         type: "input",
@@ -64,6 +65,11 @@ const questions=[
         name: "Cheng",
         default:'hcc780921@gmail.com'
 
+      },
+      {//test
+        type: "input",
+        message: "Please state any test(s) require.",
+        name: "test"
       }];
 
 
@@ -76,7 +82,7 @@ function init() {
         })
         .then(data => {
             // console.log(data);
-            writeFileAsync("README.md", data);
+            fs.writeFileSync("README.md", data);
             console.log("README file created!");
             })
         .catch(err => { console.log(err) });
