@@ -32,26 +32,24 @@ const questions=[
         message: "how can the user run this project?",
         name: "run",
         default:'Running'
-
       },{//license
         type: "list",
-        message: "what is the License you use?",
+        message: "Please select which license you would like to use.",
         name: "License",
-        choice:[
+        choices:[
             "ISC",
-            "MIT",
-            "USA",
-            "TAIWAN",
+            "MIT",       
             "Apache-2.0",
             "IPL-1.0",
-            "Zlib"
+            "Zlib",
+            "none"
         ]
       },
       {// links
         type: "input",
         message: "Developer this project Name?",
         name: "Author",
-        default:'NameesMohammed'
+        default:'Cheng-Chien Huang'
 
       },{//Github
         type: "input",
