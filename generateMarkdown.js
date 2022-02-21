@@ -21,18 +21,21 @@ ${data.Description}
    Project Description/Title
   
 ## Usage
- 
+   ${data.use}
+​   This application is used for quick readme generator
+
 ## License
-  
-## Questions
+   ${data.License}
   
 ## Installation
    The following necessary dependencies must be installed to run the application properly: undefined
-  
-## Usage
-   ​This application is used for quick readme generator
-  
+   ${data.install}
 ## Questions 
+   If you have any question please don't hesitate to contact me 
+   my email is ${data.email}
+   my Github is ${data.github}
+
+## Contributors
 
 
 `;

@@ -62,7 +62,7 @@ const questions=[
       {//Email
         type: "input",
         message: "Enter your email?",
-        name: "Cheng",
+        name: "email",
         default:'hcc780921@gmail.com'
 
       },
