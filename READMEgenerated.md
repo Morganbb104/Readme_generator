@@ -1,4 +1,4 @@
-# Project
+# readme generator
 
 ## Description
  A node.js application that uses user input from inquirer to populate a README.md file for user repository.
@@ -29,7 +29,7 @@ SO THAT I can quickly create a professional README for a new project
 ​   This application is used for quick readme generator usage
 
 ## License
-   [![License: AFL-3.0](https://img.shields.io/badge/License-AFL--3.0-lightgrey.svg)](https://opensource.org/licenses/AFL-3.0)
+   [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
   
 ## Installation
    The following necessary dependencies must be installed to run the application properly: undefined
@@ -40,7 +40,7 @@ SO THAT I can quickly create a professional README for a new project
    my Github name is morganbb104, you can find me via this link https://github.com/Morganbb104
 
 ## Contributors
-   Contribution list
+   Namees Stone Sonia Mike
 
 ## Test Instructions
    

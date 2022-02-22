@@ -29,7 +29,8 @@ SO THAT I can quickly create a professional README for a new project
 ​   This application is used for quick readme generator usage
 
 ## License
-   Apache-2.0
+   [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+  
   
 ## Installation
    The following necessary dependencies must be installed to run the application properly: undefined
