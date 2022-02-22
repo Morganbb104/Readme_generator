@@ -7,11 +7,11 @@ project Description/Required
    Project Description/Title
   
 ## Usage
-usage
-​This application is used for quick readme generator
+   usage
+​   This application is used for quick readme generator
 
 ## License
-ISC
+   ISC
   
 ## Installation
    The following necessary dependencies must be installed to run the application properly: undefined
@@ -20,5 +20,7 @@ ISC
    If you have any question please don't hesitate to contact me 
    my email is hcc780921@gmail.com
    my Github is morganbb104
+
+## Contributors
 
 

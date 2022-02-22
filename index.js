@@ -31,8 +31,8 @@ const questions=[
       },{// contribution guidelines
         type: "input",
         message: "Please state if others can contribute.",
-        name: "run",
-        default:'Contribution'
+        name: "contribution",
+        default:'Contribution list'
       },{//license
         type: "list",
         message: "Please select which license you would like to use.",
@@ -49,7 +49,7 @@ const questions=[
       {// links
         type: "input",
         message: "Please give your GitHub profile link.",
-        name: "Author",
+        name: "author",
         default:'Github'
 
       },{//Github
