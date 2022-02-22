@@ -1,4 +1,4 @@
-# readme generator project
+# Project
 
 ## Description
  A node.js application that uses user input from inquirer to populate a README.md file for user repository.
@@ -29,7 +29,7 @@ SO THAT I can quickly create a professional README for a new project
 ​   This application is used for quick readme generator usage
 
 ## License
-   Apache-2.0
+   ISC
   
 ## Installation
    The following necessary dependencies must be installed to run the application properly: undefined
@@ -40,9 +40,8 @@ SO THAT I can quickly create a professional README for a new project
    my Github name is morganbb104, you can find me via this link https://github.com/Morganbb104
 
 ## Contributors
-   no
+   Contribution list
 
 ## Test Instructions
-   test
+   
 
-## Live gif

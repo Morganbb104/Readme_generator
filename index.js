@@ -82,7 +82,7 @@ function init() {
         })
         .then(data => {
             // console.log(data);
-            fs.writeFileSync("README.md", data);
+            fs.writeFileSync("READMEgenerated.md", data);
             console.log("README file created!");
             })
         .catch(err => { console.log(err) });
