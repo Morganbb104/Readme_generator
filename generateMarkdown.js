@@ -5,7 +5,7 @@ function generateMarkdown(data) {
 ## Description
 ${data.Description}
 
-##User Story
+## User Story
 
 AS A developer
 I WANT a README generator
