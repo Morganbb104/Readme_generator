@@ -46,3 +46,5 @@ SO THAT I can quickly create a professional README for a new project
    test
 
 ## Live gif
+
+![screenshot](https://github.com/Morganbb104/Readme_generator/blob/main/rsc/demo-video.gif)
