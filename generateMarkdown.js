@@ -6,15 +6,15 @@ function generateMarkdown(data) {
 ${data.Description}
 
 ##User Story
-```
+
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 
-```
+
   
 ## Table of Contents
-```
+
     User Story
     1.   I a command-line application that accepts user input.
     2.   I want to be prompted for information about my application repository.
@@ -25,7 +25,7 @@ SO THAT I can quickly create a professional README for a new project
     7.   I want to enter my GitHub username; ant then this is added to the section of the README entitled Questions, with a link to my GitHub profile.
     8.   I want to enter my email address; and then this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions.
     9.   I want to click on the links in the Table of Contents; and then, I am taken to the corresponding section of the README.
-```  
+ 
 ## Usage
    ${data.use}
 ​   This application is used for quick readme generator
