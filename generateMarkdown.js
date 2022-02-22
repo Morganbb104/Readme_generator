@@ -1,3 +1,6 @@
+const licenseArr = ["Academic Free License v3.0", "Apache license 2.0", "Artistic license 2.0", "Boost Software License 1.0", "BSD 2-clause license", "BSD 3-clause license", "Creative Commons Zero v1.0 Universal", "Creative Commons Attribution 4.0", "Creative Commons Attribution Share Alike 4.0", "None"]
+
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.Title}
@@ -31,7 +34,7 @@ SO THAT I can quickly create a professional README for a new project
 ​   This application is used for quick readme generator ${data.use}
 
 ## License
-   ${data.License}
+   ${licenseBadge(data.License)}
   
 ## Installation
    The following necessary dependencies must be installed to run the application properly: undefined
@@ -49,5 +52,45 @@ SO THAT I can quickly create a professional README for a new project
 
 `;
 }
+
+const licenseBadge = (License) => {
+   console.log(License);
+   switch (License) {
+           case licenseArr[0]:
+             return "[![License: AFL-3.0](https://img.shields.io/badge/License-AFL--3.0-lightgrey.svg)](https://opensource.org/licenses/AFL-3.0)";
+             break;
+           case licenseArr[1]:
+             return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)]";
+             break;
+           case licenseArr[2]:
+             return "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)";
+             break;
+           case licenseArr[3]:
+             return "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+             break;
+           case licenseArr[4]:
+             return "[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)";
+             break;
+           case licenseArr[5]:
+             return "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+             break;
+           case licenseArr[6]:
+             return "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)";
+             break;
+           case licenseArr[7]:
+             return "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)";
+             break;
+           case licenseArr[8]:
+             return "[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)";
+             break;
+           case licenseArr[9]:
+             return "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)";
+             break;
+           default:
+               return ""
+           }
+         }
+
+
 
 module.exports = generateMarkdown;

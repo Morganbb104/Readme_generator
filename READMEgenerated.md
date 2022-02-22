@@ -29,7 +29,7 @@ SO THAT I can quickly create a professional README for a new project
 ​   This application is used for quick readme generator usage
 
 ## License
-   ISC
+   [![License: AFL-3.0](https://img.shields.io/badge/License-AFL--3.0-lightgrey.svg)](https://opensource.org/licenses/AFL-3.0)
   
 ## Installation
    The following necessary dependencies must be installed to run the application properly: undefined

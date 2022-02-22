@@ -35,16 +35,18 @@ const questions=[
         default:'Contribution list'
       },{//license
         type: "list",
-        message: "Please select which license you would like to use.",
+        message: "Please select which license you would like to use?",
         name: "License",
-        choices:[
-            "ISC",
-            "MIT",       
-            "Apache-2.0",
-            "IPL-1.0",
-            "Zlib",
-            "none"
-        ]
+        choices:["Academic Free License v3.0",
+        "Apache license 2.0",
+        "Artistic license 2.0",
+        "Boost Software License 1.0",
+        "BSD 2-clause license",
+        "BSD 3-clause license",
+        "Creative Commons Zero v1.0 Universal",
+        "Creative Commons Attribution 4.0",
+        "Creative Commons Attribution Share Alike 4.0",
+        "None"]
       },
       {// links
         type: "input",
@@ -73,6 +75,9 @@ const questions=[
       }];
 
 
+
+
+
 // function to initialize program
 function init() {
     inquirer.prompt(questions)
@@ -90,3 +95,4 @@ function init() {
 
 // function call to initialize program
 init();
+
