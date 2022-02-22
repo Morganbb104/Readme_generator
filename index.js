@@ -13,7 +13,7 @@ const questions=[
         type: "input",
         message: "Please leave a description of your project.",
         name: "Description",
-        default:'project Description/Required'
+        default:' A node.js application that uses user input from inquirer to populate a README.md file for user repository.'
 
       },
       {//Installation

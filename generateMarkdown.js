@@ -27,8 +27,8 @@ SO THAT I can quickly create a professional README for a new project
     9.   I want to click on the links in the Table of Contents; and then, I am taken to the corresponding section of the README.
  
 ## Usage
-   ${data.use}
-​   This application is used for quick readme generator
+   
+​   This application is used for quick readme generator ${data.use}
 
 ## License
    ${data.License}

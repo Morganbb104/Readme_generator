@@ -1,9 +1,9 @@
-# Project
+# readme generator project
 
 ## Description
-project Description/Required
+ A node.js application that uses user input from inquirer to populate a README.md file for user repository.
 
-##User Story
+## User Story
 
 AS A developer
 I WANT a README generator
@@ -25,11 +25,11 @@ SO THAT I can quickly create a professional README for a new project
     9.   I want to click on the links in the Table of Contents; and then, I am taken to the corresponding section of the README.
  
 ## Usage
-   usage
-​   This application is used for quick readme generator
+   
+​   This application is used for quick readme generator usage
 
 ## License
-   ISC
+   Apache-2.0
   
 ## Installation
    The following necessary dependencies must be installed to run the application properly: undefined
@@ -37,11 +37,11 @@ SO THAT I can quickly create a professional README for a new project
 ## Questions 
    If you have any question please don't hesitate to contact me 
    my email is hcc780921@gmail.com
-   my Github name is morganbb104, you can find me via this link Github
+   my Github name is morganbb104, you can find me via this link https://github.com/Morganbb104
 
 ## Contributors
-   Contribution list
+   no
 
-##Test Instructions
-   
+## Test Instructions
+   test
 
