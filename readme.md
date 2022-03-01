@@ -46,6 +46,10 @@ SO THAT I can quickly create a professional README for a new project
 ## Test Instructions
    test
 
+## Live mp4 video
+
+https://user-images.githubusercontent.com/33117688/156266807-8655f9f8-edbd-4abf-aab5-7ba8987efef4.mp4
+
 ## Live gif
 
 ![screenshot](https://github.com/Morganbb104/Readme_generator/blob/main/rsc/demo-video.gif)
